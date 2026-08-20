@@ -2,7 +2,7 @@ import Mathlib.Data.Nat.Squarefree
 
 import Mathlib.Tactic
 
-namespace Imo2026P6
+namespace IMO2026P6
 
 open scoped BigOperators
 
@@ -488,4 +488,4 @@ theorem imo2026_p6 (a : ℕ → ℕ) (ha : IsValidSeq a) :
   rw [← hfindex n]
   exact hfvalue n
 
-end Imo2026P6
+end IMO2026P6

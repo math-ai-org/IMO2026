@@ -3,7 +3,7 @@ import Mathlib.Algebra.GCDMonoid.Nat
 import Mathlib.Data.Prod.Lex
 import Mathlib.NumberTheory.Padics.PadicVal.Basic
 
-namespace Imo2026P1
+namespace IMO2026P1
 
 abbrev Board := Multiset ℕ
 
@@ -445,4 +445,4 @@ theorem imo2026_p1_mval_gt_one (B₀ : Board) (hB₀ : IsInitial B₀) :
     1 < Mval B₀ :=
   initial_mval_gt_one B₀ hB₀
 
-end Imo2026P1
+end IMO2026P1

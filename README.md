@@ -8,7 +8,7 @@ Lean 4 formalizations of problems from the 2026 International Mathematical Olymp
 | --- | --- | --- |
 | 1 | [`IMO2026P1.lean`](./IMO2026P1.lean) | Proved |
 | 2 | [`IMO2026P2.lean`](./IMO2026P2.lean) | Proved |
-| 3 | — | Not yet formalized |
+| 3 | [`IMO2026P3.lean`](./IMO2026P3.lean) | Proved |
 | 4 | [`IMO2026P4.lean`](./IMO2026P4.lean) | Proved |
 | 5 | [`IMO2026P5.lean`](./IMO2026P5.lean) | Proved |
 | 6 | [`IMO2026P6.lean`](./IMO2026P6.lean) | Proved |

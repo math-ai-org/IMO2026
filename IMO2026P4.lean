@@ -1,12 +1,8 @@
-module
+import Mathlib.Data.Real.Basic
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Tactic
 
-public import Mathlib.Data.Real.Basic
-public import Mathlib.Algebra.Order.Ring.Star
-public import Mathlib.Tactic
-
-public section
-
-namespace Imo2026P4
+namespace IMO2026P4
 
 /-- A triangle, viewed as the multiset of its three interior angles (in degrees):
 positive reals summing to `180`. -/
@@ -432,4 +428,4 @@ theorem imo2026_p4 (θ : ℝ) (hθ0 : 0 < θ) (hθ180 : θ < 180) :
       simpa [add_assoc] using hsum
     exact wins_of_divisor θ hθ180 n (by omega) hnθ α β γ hα hβ hγ hsum'
 
-end Imo2026P4
+end IMO2026P4
